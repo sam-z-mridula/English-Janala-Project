@@ -158,20 +158,59 @@
 
     <!-- Lessons Button Section -->
     <section class="w-[95%] mx-auto text-center mt-30">
-      <h1 class="text-4xl font-bold"><span class="text-[#00bcff]">Let's</span> Learn Vocabularies</h1>
+      <h1 class="text-4xl font-bold">
+        <span class="text-[#00bcff]">Let's</span> Learn Vocabularies
+      </h1>
 
-      <div id="level-container" class="my-10 flex flex-wrap gap-5 justify-center">
-      </div>
+      <div
+        id="level-container"
+        class="my-10 flex flex-wrap gap-5 justify-center"
+      ></div>
+    </section>
+
+    <!-- loading -->
+    <section id="spinner" class="flex justify-center items-center py-10 hidden">
+      <span class="loading loading-ball loading-xl"></span>
     </section>
 
     <!-- Vocabulary Section -->
-     <section class="w-[95%] mx-auto text-center mb-30">
-      <div class="bg-gray-100 py-15 rounded-3xl w-95 mx-auto md:w-full">
-        <p class="font-bangla text-[#79716b]">আপনি এখনো কোন Lesson Select করেন নি?</p>
-        <h1 class="font-bangla text-3xl mt-5 font-medium">একটি Lesson Select করুন!</h1>
+    <section
+      id="vocab-container"
+      class="w-[90%] md:w-[95%] mx-auto text-center mb-30 bg-gray-100 rounded-3xl p-7 grid grid-cols-3 gap-5"
+    >
+      <div class="py-10 w-95 mx-auto md:w-full col-span-full">
+        <p class="font-bangla text-[#79716b]">
+          আপনি এখনো কোন Lesson Select করেন নি?
+        </p>
+        <h1 class="font-bangla text-3xl mt-5 font-medium">
+          একটি Lesson Select করুন!
+        </h1>
       </div>
-     </section>
+    </section>
 
+    <!-- Modal -->
+    <!-- Open the modal using ID.showModal() method -->
+    <!-- <button class="btn" onclick="my_modal_1.showModal()">open modal</button> -->
+
+    <dialog id="my_modal" class="modal">
+      <div class="modal-box">
+        <div id="details-container">
+          <div class="bg-white p-5 rounded-xl">
+            
+          </div>
+        </div>
+        <div class="modal-action">
+          <form method="dialog">
+            <!-- if there is a button in form, it will close the modal -->
+            <button class="btn">Close</button>
+          </form>
+        </div>
+      </div>
+    </dialog>
+
+    <section
+      class="w-[90%] md:w-[95%] mx-auto mb-30 bg-gray-100 rounded-3xl p-7 grid grid-cols-3 gap-5"
+    ></section>
     <script src="./script/index.js"></script>
   </body>
 </html>

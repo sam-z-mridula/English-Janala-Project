@@ -3,12 +3,19 @@
 /* Hind Siliguri */
 @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
 
+/* Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 * {
     font-family: "Poppins", sans-serif;
 }
 
 .font-bangla {
     font-family: "Hind Siliguri", sans-serif;
+}
+
+.font-inter {
+    font-family: "Inter", sans-serif;
 }
 
 .nav-btn:hover {
@@ -33,4 +40,9 @@
 
 .header-input-text::placeholder {
     font-size: 10px;
+}
+
+.active {
+    border: 2px solid #422ad5;
+    box-shadow: 0px 0px 7px 0px ;
 }
