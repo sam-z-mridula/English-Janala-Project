@@ -21,3 +21,16 @@
     border: none;
     box-shadow: none;
 }
+
+.sm-nav-btn {
+    background-color: transparent;
+    color: black;
+}
+
+.sm-nav-btn:hover {
+   background: #badeff42;
+}
+
+.header-input-text::placeholder {
+    font-size: 10px;
+}
