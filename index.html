@@ -114,27 +114,64 @@
     </nav>
 
     <!-- Hero Section -->
-    <header class="w-[95%] mx-auto flex flex-col-reverse md:flex-row justify-between items-center md:gap-10">
+    <header
+      class="w-[95%] mx-auto flex flex-col-reverse md:flex-row justify-between items-center md:gap-10 md:mt-10"
+    >
       <section class="p-10 text-center md:text-left">
-        <h1 class="text-4xl md:text-5xl font-bold"><span class="text-[#00bcff]">English</span> is Easy!!</h1>
-        <p class="font-bangla my-5 md:w-120 text-[#464649] font-medium text-base/7">
+        <h1 class="text-4xl md:text-5xl font-bold">
+          <span class="text-[#00bcff]">English</span> is Easy!!
+        </h1>
+        <p
+          class="font-bangla my-5 md:w-120 text-[#464649] font-medium text-base/7"
+        >
           আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন হন অথবা
           আপনার দক্ষতা বাড়াতে চান, আমাদের Interactive Lessons আপনাকে নিয়ে যাবে
           অন্য একটি Level এ
         </p>
-        <form class="w-75 mt-10 md:mt-5">
-          <input type="text" placeholder="Enter Your Name" class="input input-md" /> <br>
+        <form class="w-75 mt-10 md:mt-5 mx-auto md:mx-0">
+          <input
+            type="text"
+            placeholder="Enter Your Name"
+            class="input input-md"
+          />
+          <br />
 
-          <input type="password" placeholder=".................." class="input input-md my-3" />
-          
-          <br>
+          <input
+            type="password"
+            placeholder=".................."
+            class="input input-md my-3"
+          />
+
+          <br />
           <button class="btn btn-primary w-full md:w-30">Get Started</button>
         </form>
       </section>
 
       <section class="w-full">
-        <img class="w-[75%] mx-auto md:ml-40" src="./assets/hero-student.png" alt="">
+        <img
+          class="w-[75%] mx-auto md:ml-40"
+          src="./assets/hero-student.png"
+          alt=""
+        />
       </section>
     </header>
+
+    <!-- Lessons Button Section -->
+    <section class="w-[95%] mx-auto text-center mt-30">
+      <h1 class="text-4xl font-bold"><span class="text-[#00bcff]">Let's</span> Learn Vocabularies</h1>
+
+      <div id="level-container" class="my-10 flex flex-wrap gap-5 justify-center">
+      </div>
+    </section>
+
+    <!-- Vocabulary Section -->
+     <section class="w-[95%] mx-auto text-center mb-30">
+      <div class="bg-gray-100 py-15 rounded-3xl w-95 mx-auto md:w-full">
+        <p class="font-bangla text-[#79716b]">আপনি এখনো কোন Lesson Select করেন নি?</p>
+        <h1 class="font-bangla text-3xl mt-5 font-medium">একটি Lesson Select করুন!</h1>
+      </div>
+     </section>
+
+    <script src="./script/index.js"></script>
   </body>
 </html>
